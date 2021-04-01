@@ -2,9 +2,7 @@
 
 Code snippets for the free and [open-source](https://github.com/moodle/moodle) online learning platform [moodle](https://moodle.org/).  
 
-Find the fully rendered version of this document at: [https://frederic-vw.github.io/moodle-utils/](https://frederic-vw.github.io/moodle-utils/)
-
-## Clickable elements
+## Clickable Q/A elements
 
 **Question (un/-fold)**
 
@@ -46,7 +44,7 @@ function getBtnEvent(btnId){
 ```
 
 
-## Not-clickable elements
+## Coloured text boxes
 
 Choose other colors from [this site](https://htmlcolorcodes.com/colors/).
 
@@ -80,3 +78,8 @@ Code:
 ```html
 <p style="background-color: #ffffcc; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #ffeb3b; text-align: left; outline: none; font-size: 15px;"><strong>Warning</strong>: true = false</p>
 ```
+
+---
+This document:  
+[source](https://github.com/Frederic-vW/moodle-utils/edit/main/README.md)  
+[web](https://frederic-vw.github.io/moodle-utils/)
