@@ -32,6 +32,15 @@ function getBtnEvent(btnId){
 </script>
 ```
 
+**Question (un/-fold)**
+
+This snippet needs the javascript code above to (un-)fold the answer.  
+Code:
+```html
+<p><button id="q-test" type="button" style="background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px;">Question: what happens if you click this?</button></p>
+<div id="a-test" style="padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1;">...you may get an answer!</div>
+```
+
 **Exercise (blue)**
 
 Code:
@@ -42,41 +51,43 @@ Code:
 Rendered:
 <p style="background-color: #e7f3fe; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Exercise</strong>: Do something! (not clickable)</p>
 
-**Question (un/-fold)**
+
+**Success (green)**
 
 Code:
 ```html
-<p><button id="q-test" type="button" style="background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px;">Question: what happens if you click this?</button></p>
-<div id="a-test" style="padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1;">...you may get an answer!</div>
+<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Success!</strong>: well done (not clickable)</p>
 ```
 
 Rendered:
-<p><button id="q-test" type="button" style="background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px;">Question: what happens if you click this?</button></p>
-<div id="a-test" style="padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1;">...you may get an answer!</div>
+<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Success!</strong>: well done (not clickable)</p>
 
-
-**Success (green)**
-```html
-<div style="background-color: #ddffdd; border-left: 12px solid #4CAF50;">
-<p><strong> Success! </strong> Some text...</p>
-</div>
-```
 
 **Info (blue)**
+Code:
 ```html
-<p style="background-color: #e7f3fe; border-left: 12px solid #2196F3;">
-<p><strong> Info! </strong> Some text...</p>
-</p>
+<p style="background-color: #e7f3fe; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Info:</strong>: true=false</p>
 ```
+
+Rendered:
+<p style="background-color: #e7f3fe; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Info:</strong>: true=false</p>
+
 
 **Warning (yellow)**
+Code:
 ```html
-<div style="background-color: #ffffcc; border-left: 12px solid #ffeb3b;">
-<p><strong> Warning! </strong> Some text...</p>
-</div>
+<p style="background-color: #ffffcc; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #ffeb3b; text-align: left; outline: none; font-size: 15px;"><strong>Warning:</strong>: mind-the-gap</p>
 ```
 
+Rendered:
+<p style="background-color: #ffffcc; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #ffeb3b; text-align: left; outline: none; font-size: 15px;"><strong>Warning:</strong>: mind-the-gap</p>
+
+
 **Info (green)**
+Code:
 ```html
-<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Info</strong>: This mechanism will be demonstrated in the muscle practical!</p>
+<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Info</strong>: ...another info</p>
 ```
+
+Rendered:
+<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Info</strong>: ...another info</p>
