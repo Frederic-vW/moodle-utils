@@ -81,5 +81,5 @@ Code:
 
 ---
 This document:  
-[source](https://github.com/Frederic-vW/moodle-utils/edit/main/README.md)  
+[source](https://github.com/Frederic-vW/moodle-utils/blob/main/README.md)  
 [web](https://frederic-vw.github.io/moodle-utils/)
