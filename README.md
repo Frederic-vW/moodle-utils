@@ -50,7 +50,7 @@ function getBtnEvent(btnId){
 
 Choose other colors from [this site](https://htmlcolorcodes.com/colors/).
 
-**Exercise**
+**Example-1**
 
 Rendered element:
 <p style="background-color: #e7f3fe; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Exercise</strong>: Do something!</p>
@@ -60,23 +60,23 @@ Code:
 <p style="background-color: #e7f3fe; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Exercise</strong>: Do something!</p>
 ```
 
-**Success**
+**Example-2**
 
 Rendered element:
-<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Success!</strong>: well done</p>
+<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Success!</strong> well done</p>
 
 Code:
 ```html
-<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Success!</strong>: well done</p>
+<p style="background-color: #ddffdd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #4CAF50; text-align: left; outline: none; font-size: 15px;"><strong>Success!</strong> well done</p>
 ```
 
 
-**Warning**
+**Example-3**
 
 Rendered element:
-<p style="background-color: #ffffcc; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #ffeb3b; text-align: left; outline: none; font-size: 15px;"><strong>Warning:</strong>: true = false</p>
+<p style="background-color: #ffffcc; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #ffeb3b; text-align: left; outline: none; font-size: 15px;"><strong>Warning</strong>: true = false</p>
 
 Code:
 ```html
-<p style="background-color: #ffffcc; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #ffeb3b; text-align: left; outline: none; font-size: 15px;"><strong>Warning:</strong>: true = false</p>
+<p style="background-color: #ffffcc; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #ffeb3b; text-align: left; outline: none; font-size: 15px;"><strong>Warning</strong>: true = false</p>
 ```
