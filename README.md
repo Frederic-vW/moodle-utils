@@ -1,6 +1,6 @@
 # moodle-utils
 
-Code snippets for the free and [open-source](https://github.com/moodle/moodle) online learning platform [moodle](https://moodle.org/).
+Code snippets for the free and [open-source](https://github.com/moodle/moodle) online learning platform [moodle](https://moodle.org/).  
 See the rendered version at: https://frederic-vw.github.io/moodle-utils/
 
 **Javascript** snippet to toggle foldable text boxes:
