@@ -4,7 +4,20 @@ Code snippets for the free and [open-source](https://github.com/moodle/moodle) o
 
 Find the fully rendered version of this document at: [https://frederic-vw.github.io/moodle-utils/](https://frederic-vw.github.io/moodle-utils/)
 
-**Javascript** snippet to toggle foldable text boxes:
+## Clickable elements
+
+**Question (un/-fold)**
+
+This snippet has a piece of html code and a piece of javascript to implement a question/answer text box, where the answer is toggled by clicking.  
+To make it work, your *question* needs an html `id` attribute starting with `id=q-`, and a matching *answer* id-attribute starting with `a-`. In the example below, the matching `id` pair is: `id=q-test` in the question, and `id=a-test` for the answer. If you use several questions in one html file, choose a different suffix (`-test` in the example) for each question.
+
+**html** part:
+```html
+<p><button id="q-test" type="button" style="background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px;">Question: what happens if you click this?</button></p>
+<div id="a-test" style="padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1;">...you may get an answer!</div>
+```
+
+**javascript** part:
 
 ```javascript
 <script type="text/javascript">
@@ -33,20 +46,6 @@ function getBtnEvent(btnId){
 </script>
 ```
 
-## Clickable elements
-
-**Question (un/-fold)**
-
-This snippet needs the javascript code above to (un-)fold the answer.  
-To make it work, your *question* needs an html `id` attribute starting with `id=q-`, and a matching *answer* id-attribute starting with `a-`. In the example below, the matching `id` pair is: `id=q-test` in the question, and `id=a-test` for the answer.
-
-Code:
-```html
-<p><button id="q-test" type="button" style="background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px;">Question: what happens if you click this?</button></p>
-<div id="a-test" style="padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1;">...you may get an answer!</div>
-```
-
-If you use more than one question in an html file, choose a different suffix (`-test` in the example) for each question.
 
 ## Not-clickable elements
 
