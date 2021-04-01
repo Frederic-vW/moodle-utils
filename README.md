@@ -30,6 +30,11 @@ function getBtnEvent(btnId){
 ```
 
 **Warning (pink)**
+
+<div style="background-color: #ffdddd; border-left: 12px solid #f44336;">
+<p><strong> Warning! </strong> Some text...</p>
+</div>
+
 ```html
 <div style="background-color: #ffdddd; border-left: 12px solid #f44336;">
 <p><strong> Warning! </strong> Some text...</p>
