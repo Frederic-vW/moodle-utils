@@ -6,7 +6,7 @@ See the rendered version at: https://frederic-vw.github.io/moodle-utils/
 **Javascript** snippet to toggle foldable text boxes:
 
 ```javascript
-<script type="text/javascript">// <![CDATA[
+<script type="text/javascript">
 var questions = document.getElementsByTagName("button");
 for (var q_btn of questions) {
   try {
@@ -29,18 +29,30 @@ function getBtnEvent(btnId){
   };
   return f;
 }
-// ]]></script>
+</script>
 ```
 
-**Warning (pink)**
+**Exercise (blue)**
 
 Code:
 ```html
-<p style="background-color: #ffdddd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Exercise</strong>: Do something! (not clickable)</p>
+<p style="background-color: #e7f3fe; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Exercise</strong>: Do something! (not clickable)</p>
 ```
 
 Rendered:
-<p style="background-color: #ffdddd; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Exercise</strong>: Do something! (not clickable)</p>
+<p style="background-color: #e7f3fe; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;"><strong>Exercise</strong>: Do something! (not clickable)</p>
+
+**Question (un/-fold)**
+
+Code:
+```html
+<p><button id="q-test" type="button" style="background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px;">Question: what happens if you click this?</button></p>
+<div id="a-test" style="padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1;">...you may get an answer!</div>
+```
+
+Rendered:
+<p><button id="q-test" type="button" style="background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px;">Question: what happens if you click this?</button></p>
+<div id="a-test" style="padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1;">...you may get an answer!</div>
 
 
 **Success (green)**
@@ -62,13 +74,6 @@ Rendered:
 <div style="background-color: #ffffcc; border-left: 12px solid #ffeb3b;">
 <p><strong> Warning! </strong> Some text...</p>
 </div>
-```
-
-**Exercise**
-```html
-<p style="background-color: #e7f3fe; color: black; cursor: pointer; padding: 18px; width: 100%; border-left: 12px solid #2196F3; text-align: left; outline: none; font-size: 15px;">
-<strong>Exercise</strong>: Try and visualize all processes involved in skeletal muscle excitation-contraction coupling.
-</p>
 ```
 
 **Info (green)**
