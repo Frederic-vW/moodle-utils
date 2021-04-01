@@ -8,8 +8,7 @@ Find the fully rendered version of this document at: [https://frederic-vw.github
 
 **Question (un/-fold)**
 
-This snippet has a piece of html code and a piece of javascript to implement a question/answer text box, where the answer is toggled by clicking.  
-To make it work, your *question* needs an html `id` attribute starting with `id=q-`, and a matching *answer* id-attribute starting with `a-`. In the example below, the matching `id` pair is: `id=q-test` in the question, and `id=a-test` for the answer. If you use several questions in one html file, choose a different suffix (`-test` in the example) for each question.
+This html/javascript snippet implements a question/answer text box, where the answer is toggled by clicking. To make it work, your *question* needs an html `id` attribute starting with `id=q-`, and a matching *answer* id-attribute starting with `a-`. In the example below, the matching `id` pair is: `id=q-test` in the question, and `id=a-test` for the answer. If you use several questions in one html file, choose a different suffix (`-test` in the example) for each question.
 
 **html** part:
 ```html
