@@ -1,4 +1,3 @@
-<script type="text/javascript">
 var questions = document.getElementsByTagName("button");
 for (var q_btn of questions) {
   try {
@@ -21,4 +20,3 @@ function getBtnEvent(btnId){
   };
   return f;
 }
-</script>
