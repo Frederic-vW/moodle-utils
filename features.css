@@ -1,9 +1,9 @@
-.dropdown-fvw {
+.mu-dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content-fvw {
+.mu-dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -13,11 +13,11 @@
   z-index: 100;
 }
 
-.dropdown-fvw:hover .dropdown-content-fvw {
+.mu-dropdown:hover .mu-dropdown-content {
   display: block;
 }
 
-.dropdown-fvw-2 {
+.mu-dropdown-2 {
   background-color: blue;
 }
 
